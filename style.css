@@ -29,7 +29,7 @@ html{
 #align{
     display:flex;
     justify-content: center;
-    background:lightgreen;
+   
     flex-direction:column;
 }
 
@@ -42,20 +42,23 @@ html{
     display:flex;
     flex-direction:column;
     margin-top:30px;
-    background:blue;
+   
 }
 #submit{
     margin:auto;
     margin-top:20px;
     font-size:20px;
-    background-color:gold;
-    
+    background: gold;
+    color:black;
+   
 }
 
 #benefits{
     margin:auto;
     margin-top:150px;
-    background:red;
+    padding-left:30px;
+    border: 1px solid black;
+    
 }
 
 #demo{
@@ -63,15 +66,18 @@ html{
     margin-top:20px;
 }
 #prices{
+    margin:auto;
+    width:60%;
     margin-top:20px;
     display:flex;
     flex-direction:row;
     justify-content: space-around;
+    
 }
 
 #price1, #price2, #price3{
     border: solid 1px black;
-    width: 15%;
+    width: 25%;
 }
 
 #price-label{
@@ -81,11 +87,19 @@ html{
     padding-top:10px;
     padding-bottom:20px;
     text-align: center;
+    color:black;
+}
+#cost{
+    text-align:center;
+    font-size:24pt;
 }
 
 
 #footer{
-    background:lightcyan
+    background:grey;
+    text-align:center;
+    margin:auto;
+    margin-top:30px;
 }
 
 
